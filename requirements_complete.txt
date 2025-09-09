@@ -1,0 +1,29 @@
+# J.A.R.V.I.S MK2 Complete Requirements
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-silero
+livekit-plugins-google
+livekit-plugins-noise-cancellation
+livekit-agents[google]~=1.2
+livekit-plugins-cartesia
+livekit-plugins-deepgram~=1.2
+livekit-plugins-turn-detector
+mem0ai
+duckduckgo-search
+langchain_community
+requests
+python-dotenv
+
+# System Audio Control Dependencies
+pycaw
+comtypes
+
+# Display Control
+screen-brightness-control>=0.20.0
+Pillow>=9.0.0
+colorlog>=6.7.0
+pywin32>=306
+wmi>=1.5.1
+
+# Additional Dependencies
+aiohttp

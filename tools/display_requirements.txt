@@ -1,0 +1,26 @@
+# Display control requirements for JARVIS AI Assistant
+# Windows-specific packages for display management
+
+# Core Windows API access
+pywin32>=306
+wmi>=1.5.1
+
+# Screen brightness control
+screen-brightness-control>=0.20.0
+
+# Image processing for screenshots
+Pillow>=9.0.0
+
+# System information
+psutil>=5.9.0
+
+# Async support
+asyncio
+
+# Logging
+colorlog>=6.7.0
+
+# Optional: Additional display utilities
+# pygetwindow>=0.0.9  # Window management
+# pyautogui>=0.9.54   # GUI automation
+# mss>=6.1.0         # Alternative screenshot library
